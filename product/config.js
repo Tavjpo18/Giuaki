@@ -2,7 +2,7 @@ module.exports = {
     aws_table_name: 'sanpham',
     aws_local_config: {
         region: 'local',
-        endpoint: 'http://54.255.62.248/:3000'
+        endpoint: 'http://54.255.62.248:3000'
    
     },
     aws_remote_config: {

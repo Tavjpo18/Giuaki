@@ -32,7 +32,7 @@
                     }
                 }
             };
-            http.open("GET", "http://18.141.202.243:3000/getProduct", true);
+            http.open("GET", "http://54.255.62.248:3000/getProduct", true);
             http.send();
         }
 
@@ -54,7 +54,7 @@
                         'Content-Type': 'application/json'
                     }
                 }
-                fetch('http://18.141.202.243:3000/addProduct', options)
+                fetch('http://54.255.62.248:3000/addProduct', options)
                     .then(res => res.json())
                     .then(res => {
                         location.reload();
